@@ -1,0 +1,38 @@
+{
+  "name": "indian-upi-app-backend",
+  "version": "1.0.0",
+  "description": "Indian UPI Payment system backend",
+  "keywords": [
+    "Paytm",
+    "Phonepay",
+    "Navi"
+  ],
+  "homepage": "https://github.com/paras160500/Indian-UPI-Application-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/paras160500/Indian-UPI-Application-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paras160500/Indian-UPI-Application-Backend.git"
+  },
+  "license": "ISC",
+  "author": "Paras Patel",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.2",
+    "nodemon": "^3.1.14",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
